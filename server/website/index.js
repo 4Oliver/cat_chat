@@ -1,5 +1,7 @@
-const socket = IO("http://localhost:3022/");
+import { io } from "./socket.io.esm.min.js";
+
+const socket = io();
 
 socket.on("welcome", (data) => {
-  console.log(data);
+  console.log('got welcome!', [data]);
 });

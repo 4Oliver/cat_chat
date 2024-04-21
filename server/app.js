@@ -2,7 +2,6 @@ import express from "express";
 import { Server as IO } from "socket.io";
 
 const port = 3022;
-
 const expressApp = express();
 
 expressApp.use(express.static("./website"));
