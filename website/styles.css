@@ -1,0 +1,35 @@
+#chat-container {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    background-color: dimgrey;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#image-container {
+    position: relative;
+    float: left;
+    border-radius: 10px;
+}
+
+#user-chat {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff; 
+    padding: 10px; 
+    box-sizing: border-box;
+    border-top: 1px solid #ccc; 
+    margin-bottom: 10px; /* Adjust as needed for the desired gap between chat messages */
+
+}
+
+
+#chat-input {
+    width: calc(100% - 80px);
+}
+
+.send-button {
+    width: 80px;
+}
