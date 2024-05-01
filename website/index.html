@@ -4,10 +4,18 @@
     <title>Cat Chat</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <script type="module">
 			import './index.js';
 		</script>
+    <div id="chat-container">
+        <div id="image-container"></div>
+    </div>
+    <form action="index.js" id="user-chat">
+        <input type="text" id="chat-input">
+        <button type="submit "send-button">SEND</button>
+    </form>
 </body>
 </html>
